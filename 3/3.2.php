@@ -62,7 +62,7 @@ wybierz ilosc osob *:
 
 if(isset($_GET['wybor'])&&isset($_GET['imie'])&&isset($_GET['nazwisko'])&&isset($_GET['email'])&&isset($_GET['pobyt'])){
 	echo "podsumowanie: <br>";
-	echo "liczba osob:,$_GET['wybor'],"<br>";
+	echo "liczba osob:",$_GET['wybor'],"<br>";
 	echo "Imie:",$_GET['imie'],"<br>";
 	echo "Nazwisko:",$_GET['nazwisko'],"<br>";
 	echo "Email;",$_GET['email'],"<br>";
