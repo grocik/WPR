@@ -1,0 +1,15 @@
+A.
+CREATE TABLE klient (
+   pesel varchar(25) not NULL,
+   imie varchar(25),
+   nazwisko VARCHAR(25),
+   PRIMARY KEY (pesel)
+);
+B.
+INSERT INTO `klient` (`pesel`, `imie`, `nazwisko`) VALUES
+('3151222', 'Andrzej', 'Niemiecki'),
+('9182312', 'Tomasz', 'Polak');
+c.
+UPDATE `klient` SET `pesel`='12831232',`imie`='Marcin',`nazwisko`='Podlaski' WHERE pesel='3151222'
+d.
+DELETE FROM `klient` WHERE pesel='9182312'
